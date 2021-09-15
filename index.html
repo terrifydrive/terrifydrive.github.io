@@ -19,6 +19,8 @@
     </style>
 
     <link href="./css/main.css" rel="stylesheet">
+
+    <script src="./assets/jquery/jquery-3.6.0.min.js"></script>
 </head>
 
 <body class="h-100">
@@ -26,7 +28,7 @@
     <div class="pagebackground">
     </div>
 
-    <div class="container-xxl">
+    <div class="container-xxl custom-padding-container">
 
         <div class="contentwrapper">
             <img src="./img/terrify_drive_banner_4_1.jpg" class="img-fluid" alt="...">
@@ -78,9 +80,12 @@
                     <!-- banner small -->
                     <div class="d-block d-md-none">
                         <div class="row">
-                            <div class="col" style="font-size: 14px;">
+                            <div class="col" style="font-size: 12px;">
                                 <span><br /></span>
                                 <span class="custom-header-text-small">Terrify Drive</span>
+                                <div style="font-size: 5px;">
+                                    <span><br /></span>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
@@ -110,16 +115,33 @@
                                             <i class="fab fa-instagram fa-stack-1x custom-fa-btn"></i>
                                         </span>
                                     </a>
+                                    <hr>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <a href="#" style="display:none;" class="blog-share" data-title="Заголовок" data-text="Описание" data-url="https://example.com/">Поделиться</a>
+                    <script>
+                        $(document).ready(function () {
+                            if (navigator.share) { // Проверяем поддержку функционала браузера
+                                button = $('.blog-share'); // Класс кнопки "поделиться"
+                                button.show().on('click', function () {
+                                    navigator.share({
+                                        title: $(this).data('title'),
+                                        text: $(this).data('text'),
+                                        url: $(this).data('url'),
+                                    });
+                                    return false;
+                                });
+                            }
+                        });
+                    </script>
                     <!-- info -->
                     <div>
                         <div class="row">
                             <div class="col">
-                                --------------------------<br />
+                                Информация: <br />
                                 ...<br />
                                 ...<br />
                                 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -130,6 +152,10 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- music -->
+                    <!-- video -->
+                    <!-- photos -->
 
                 </div>
             </div>
