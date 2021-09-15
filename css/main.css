@@ -2,7 +2,7 @@
  * main.css
  */
 
-.contentwrapper:before {
+.pagebackground:before {
     content: "";
     position: fixed;
     left: 0;
@@ -15,7 +15,7 @@
     background-size: cover;
     height: 100vh;
     width: 100%;
-    transform: scale(1.05);
+    /*transform: scale(1.05);*/
     -webkit-filter: blur(6px);
     -moz-filter: blur(6px);
     -o-filter: blur(6px);
@@ -23,9 +23,34 @@
     filter: blur(6px);
 }
 
-.contentwrapper {
+.pagebackground {
     position: fixed;
     left: 0;
     right: 0;
-    z-index: 0;
+    z-index: -9999;
+}
+
+.contentwrapper {
+    background-color: white;
+}
+
+.custom-header-text {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.custom-fa-btns-block {
+    font-size: 22px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.custom-fa-btn-a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.custom-fa-btn:hover {
+    color: #e10600;
 }
