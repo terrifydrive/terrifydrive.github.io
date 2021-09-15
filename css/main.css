@@ -34,8 +34,17 @@
     background-color: white;
 }
 
+.footerwrapper {
+}
+
 .custom-header-text {
     font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.custom-header-text-small {
+    font-size: 28px;
     font-family: 'Bebas Neue', cursive;
     color: white;
 }
@@ -43,12 +52,26 @@
 .custom-fa-btns-block {
     font-size: 22px;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 20px;
+}
+
+.custom-fa-btns-line {
+    font-size: 20px;
+    text-align: center;
 }
 
 .custom-fa-btn-a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
+}
+
+.custom-fa-btn-a-line {
+    color: black; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.custom-fa-btn-light {
+    color: lightgrey;
 }
 
 .custom-fa-btn:hover {
