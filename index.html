@@ -19,8 +19,6 @@
     </style>
 
     <link href="./css/main.css" rel="stylesheet">
-
-    <script src="./assets/jquery/jquery-3.6.0.min.js"></script>
 </head>
 
 <body class="h-100">
@@ -115,28 +113,18 @@
                                             <i class="fab fa-instagram fa-stack-1x custom-fa-btn"></i>
                                         </span>
                                     </a>
+                                    <a class="custom-fa-btn-a-line custom-share-btn" style="display:none;" href="#">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i>
+                                            <i class="fa fa-share-alt fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
                                     <hr>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <a href="#" style="display:none;" class="blog-share" data-title="Заголовок" data-text="Описание" data-url="https://example.com/">Поделиться</a>
-                    <script>
-                        $(document).ready(function () {
-                            if (navigator.share) { // Проверяем поддержку функционала браузера
-                                button = $('.blog-share'); // Класс кнопки "поделиться"
-                                button.show().on('click', function () {
-                                    navigator.share({
-                                        title: $(this).data('title'),
-                                        text: $(this).data('text'),
-                                        url: $(this).data('url'),
-                                    });
-                                    return false;
-                                });
-                            }
-                        });
-                    </script>
                     <!-- info -->
                     <div>
                         <div class="row">
@@ -170,7 +158,23 @@
     </div>
 
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/jquery/jquery-3.6.0.min.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            if (navigator.share) { // Проверяем поддержку функционала браузера
+                var customsharebtn = $('.custom-share-btn'); // Класс кнопки "поделиться"
+                customsharebtn.show().on('click', function () {
+                    navigator.share({
+                        title: "Terrify Drive",
+                        text: "Music Band (Alternative, Industrial, Electronic)",
+                        url: "https://terrifydrive.github.io",
+                    });
+                    return false;
+                });
+            }
+        });
+    </script>
 
 </body>
 </html>

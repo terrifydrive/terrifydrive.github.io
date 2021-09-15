@@ -78,6 +78,9 @@
     color: lightgrey;
 }
 
-.custom-fa-btn:hover {
+.custom-fa-btn:hover,
+.custom-fa-btn:focus,
+.custom-fa-btn:active
+{
     color: #e10600;
 }
