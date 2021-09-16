@@ -39,6 +39,9 @@
 }
 
 .footerwrapper {
+    padding-top:10px;
+    color: black;
+    text-align: center;
 }
 
 .custom-padding-container {
