@@ -16,11 +16,11 @@
     height: 100vh;
     width: 100%;
     /*transform: scale(1.05);*/
-    -webkit-filter: blur(6px);
-    -moz-filter: blur(6px);
-    -o-filter: blur(6px);
-    -ms-filter: blur(6px);
-    filter: blur(6px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
 }
 
 .pagebackground {
