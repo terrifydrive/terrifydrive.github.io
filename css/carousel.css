@@ -1,0 +1,8 @@
+.carousel-img {
+    padding: 2px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+        color: black;
+}
