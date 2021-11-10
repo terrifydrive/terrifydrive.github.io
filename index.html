@@ -272,6 +272,8 @@
                                 <!-- ********************************************************************************* -->
                                 <div class="photo-gallery">
                                     <div class="container-lg">
+
+                                        <!-- Photos always visible (~6 pcs.) -->
                                         <div class="row photos">
                                             <div class="col-6 col-sm-4 col-md-3 item">
                                                 <a href="./img/photos/01/01.jpg" data-lightbox="photos">
@@ -303,26 +305,42 @@
                                                     <img class="img-fluid" src="./img/photos/01/06.jpg">
                                                 </a>
                                             </div>
-                                            <div class="col-6 col-sm-4 col-md-3 item">
-                                                <a href="./img/photos/01/07.jpg" data-lightbox="photos">
-                                                    <img class="img-fluid" src="./img/photos/01/07.jpg">
-                                                </a>
+                                        </div>
+
+                                        <a id="collapsePhotosLink" class="link-primary collapse multi-collapse show" data-bs-toggle="collapse" data-bs-target=".multi-collapse" href="#" role="button" aria-expanded="false" aria-controls="collapsePhotos collapsePhotosLink">
+                                            View all &gt;&gt;
+                                        </a>
+
+                                        <div class="collapse multi-collapse" id="collapsePhotos">
+
+                                            <!-- Hidden photos -->
+                                            <div class="row photos">
+                                                <div class="col-6 col-sm-4 col-md-3 item">
+                                                    <a href="./img/photos/01/07.jpg" data-lightbox="photos">
+                                                        <img class="img-fluid" src="./img/photos/01/07.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-6 col-sm-4 col-md-3 item">
+                                                    <a href="./img/photos/01/08.jpg" data-lightbox="photos">
+                                                        <img class="img-fluid" src="./img/photos/01/08.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-6 col-sm-4 col-md-3 item">
+                                                    <a href="./img/photos/01/09.jpg" data-lightbox="photos">
+                                                        <img class="img-fluid" src="./img/photos/01/09.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-6 col-sm-4 col-md-3 item">
+                                                    <a href="./img/photos/01/10.jpg" data-lightbox="photos">
+                                                        <img class="img-fluid" src="./img/photos/01/10.jpg">
+                                                    </a>
+                                                </div>
                                             </div>
-                                            <div class="col-6 col-sm-4 col-md-3 item">
-                                                <a href="./img/photos/01/08.jpg" data-lightbox="photos">
-                                                    <img class="img-fluid" src="./img/photos/01/08.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="col-6 col-sm-4 col-md-3 item">
-                                                <a href="./img/photos/01/09.jpg" data-lightbox="photos">
-                                                    <img class="img-fluid" src="./img/photos/01/09.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="col-6 col-sm-4 col-md-3 item">
-                                                <a href="./img/photos/01/10.jpg" data-lightbox="photos">
-                                                    <img class="img-fluid" src="./img/photos/01/10.jpg">
-                                                </a>
-                                            </div>
+
+                                            <a class="link-primary" data-bs-toggle="collapse" data-bs-target=".multi-collapse" href="#collapsePhotos" role="button" aria-expanded="false" aria-controls="collapsePhotos collapsePhotosLink">
+                                                &lt;&lt; Hide
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
