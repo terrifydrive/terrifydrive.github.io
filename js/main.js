@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+
     $('.releases-carousel').slick({
         dots: true,
         infinite: true,
@@ -23,4 +24,9 @@ $(document).ready(function () {
             }
         ]
     });
+
+    lightbox.option({
+        'wrapAround': true
+    });
+
 });
