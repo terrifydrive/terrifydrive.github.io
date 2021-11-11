@@ -26,7 +26,11 @@ $(document).ready(function () {
     });
 
     lightbox.option({
-        'wrapAround': true
+        'wrapAround': true,
+        'fadeDuration': 200,
+        'imageFadeDuration': 200,
+        'resizeDuration': 230,
+        'alwaysShowNavOnTouchDevices': true
     });
 
 });
