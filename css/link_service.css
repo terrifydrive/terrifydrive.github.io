@@ -69,3 +69,11 @@
     padding: 10px 10px 10px 62px;
     background-image: url('./../img/services/tiktok.svg') !important;
 }
+
+.link-service-bandlink {
+    background-size: 32px auto;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding: 10px 10px 10px 62px;
+    background-image: url('./../img/services/bandlink.png') !important;
+}
