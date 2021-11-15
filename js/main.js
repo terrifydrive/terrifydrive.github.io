@@ -36,7 +36,7 @@ $(document).ready(function () {
     var url = new URL(window.location.href);
     var releaseParam = url.searchParams.get("release");
     if (releaseParam) {
-        var modalRelease = $('#modal-' + releaseParam);
+        var modalRelease = $('#modal-' + releaseParam.toString().toLowerCase());
         if (modalRelease.length) {
             modalRelease.modal('show')
         }
