@@ -33,4 +33,13 @@ $(document).ready(function () {
         'alwaysShowNavOnTouchDevices': true
     });
 
+    var url = new URL(window.location.href);
+    var releaseParam = url.searchParams.get("release");
+    if (releaseParam) {
+        var modalRelease = $('#modal-' + releaseParam);
+        if (modalRelease.length) {
+            modalRelease.modal('show')
+        }
+    };
+
 });
