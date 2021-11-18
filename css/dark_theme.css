@@ -1,0 +1,42 @@
+/* --------------------------- DARK THEME -------------------- */
+/**/
+
+.list-group-item,
+.modal-content,
+.contentwrapper {
+    background-color: #303030;
+    color: #fff;
+}
+
+    .list-group-item:hover {
+        background-color: #404040;
+        color: #fff;
+    }
+
+.modal-backdrop {
+    background-color: black;
+}
+
+.custom-fa-btn-light {
+    color: white;
+}
+
+.custom-link {
+    color: white;
+}
+
+    .custom-link:hover,
+    .custom-link:focus,
+    .custom-link:active {
+        color: #e10600;
+    }
+
+.btn-close {
+    background-color: gray;
+}
+
+.modal-header {
+    border-bottom-color: dimgray;
+}
+
+/* --------------------------- DARK THEME -------------------- */
