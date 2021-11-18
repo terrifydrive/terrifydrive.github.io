@@ -1,3 +1,6 @@
+body {
+}
+
 .pagebackground:before {
     content: "";
     position: fixed;
@@ -26,16 +29,16 @@
     z-index: -9999;
 }
 
-.container-lg {
-    max-width: 960px;
-}
-
 .contentwrapper {
     background-color: white;
 }
 
+.container-lg {
+    max-width: 960px;
+}
+
 .footerwrapper {
-    padding-top:10px;
+    padding-top: 10px;
     color: black;
     text-align: center;
 }
@@ -88,10 +91,6 @@
     color: #e10600;
 }
 
-/*body {
-    overflow-y: scroll !important;
-}*/
-
 .overlay-container {
     position: relative;
     text-align: center;
@@ -110,3 +109,48 @@
 .overlay-container:hover .overlay-centered-text {
     opacity: 0.80;
 }
+
+
+/* --------------------------- DARK THEME -------------------- */
+.list-group-item,
+.modal-content,
+.contentwrapper {
+    background-color: #303030;
+    color: #fff;
+}
+
+    .list-group-item:hover {
+        background-color: #404040;
+        color: #fff;
+    }
+
+.list-group {
+    border-radius: 2px;
+}
+
+.modal-body {
+    padding: 3px;
+}
+
+.modal-backdrop {
+    background-color: gray;
+}
+
+.custom-fa-btn-light {
+    color: white;
+}
+
+.href-email{
+    color: white;
+}
+    .href-email:hover,
+    .href-email:focus,
+    .href-email:active {
+        color: #e10600;
+    }
+/*
+.btn-close {
+    color:white;
+}*/
+
+/* --------------------------- DARK THEME -------------------- */
