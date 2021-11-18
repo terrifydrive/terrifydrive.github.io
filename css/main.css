@@ -86,8 +86,7 @@ body {
 
 .custom-fa-btn:hover,
 .custom-fa-btn:focus,
-.custom-fa-btn:active
-{
+.custom-fa-btn:active {
     color: #e10600;
 }
 
@@ -110,8 +109,17 @@ body {
     opacity: 0.80;
 }
 
+.list-group {
+    border-radius: 2px;
+}
+
+.modal-body {
+    padding: 3px;
+}
 
 /* --------------------------- DARK THEME -------------------- */
+/**/
+
 .list-group-item,
 .modal-content,
 .contentwrapper {
@@ -124,33 +132,26 @@ body {
         color: #fff;
     }
 
-.list-group {
-    border-radius: 2px;
-}
-
-.modal-body {
-    padding: 3px;
-}
-
 .modal-backdrop {
-    background-color: gray;
+    background-color: black;
 }
 
 .custom-fa-btn-light {
     color: white;
 }
 
-.href-email{
+.href-email {
     color: white;
 }
+
     .href-email:hover,
     .href-email:focus,
     .href-email:active {
         color: #e10600;
     }
-/*
+
 .btn-close {
-    color:white;
-}*/
+    background-color: gray;
+}
 
 /* --------------------------- DARK THEME -------------------- */
