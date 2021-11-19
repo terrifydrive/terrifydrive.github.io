@@ -38,13 +38,13 @@ body {
 }
 
 .footerwrapper {
-    padding-top: 10px;
+    padding-top: 8px;
     color: black;
     text-align: center;
 }
 
 .custom-padding-container {
-    padding: 15px 15px 15px 15px;
+    padding: 0px 0px 0px 0px;
 }
 
 .custom-header-text {
