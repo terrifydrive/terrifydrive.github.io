@@ -1,9 +1,11 @@
 /* --------------------------- DARK THEME -------------------- */
 /**/
 
-.list-group-item,
-.modal-content,
-.contentwrapper {
+.pagebackground:before {
+    background-color: #252525;
+}
+
+.list-group-item, .modal-content, .contentwrapper {
     background-color: #252525;
     color: #fff;
 }
