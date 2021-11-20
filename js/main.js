@@ -62,6 +62,7 @@ $(document).ready(function () {
             if (fbHeader) {
                 fbHeader.css("display", "none");
                 stopNext = true;
+                console.log(fbHeader);
                 console.log("hide");
             };
         };
