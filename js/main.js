@@ -60,7 +60,7 @@ $(document).ready(function () {
         } else {
             var fbHeader = $("#fb-feed-custom-container").find("div.userContentWrapper");
             if (fbHeader) {
-                //fbHeader.css("display", "none");
+                fbHeader.css("display", "none");
                 stopNext = true;
                 console.log("hide");
             };
