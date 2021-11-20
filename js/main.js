@@ -55,15 +55,13 @@ $(document).ready(function () {
                 $("#fb-feed-custom-container").append('<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="uajXX1YK"></script>');
                 $("#fb-feed-custom-container").append('<div class="fb-page" data-href="https://www.facebook.com/terrifydrive/" data-tabs="timeline" data-width="' + fbWidth + '" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/terrifydrive/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/terrifydrive/">Terrify Drive</a></blockquote></div>');
                 fbAddedflag = true;
-                console.log("fbAddedflag");
             };
         } else {
             var fbHeader = $("div.userContentWrapper");
             if (fbHeader) {
-                //fbHeader.css("display", "none");
+                fbHeader.attr("style","display: none;");
                 stopNext = true;
-                console.log(fbHeader);
-                console.log("hide2");
+                console.log("*");
             };
         };
         if (stopNext != true)
