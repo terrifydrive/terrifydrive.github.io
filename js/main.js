@@ -58,7 +58,7 @@ $(document).ready(function () {
                 console.log("fbAddedflag");
             };
         } else {
-            var fbHeader = $("#fb-feed-custom-container").find("div.userContentWrapper");
+            var fbHeader = $("div#fb-feed-custom-container div.userContentWrapper");
             if (fbHeader) {
                 fbHeader.css("display", "none");
                 stopNext = true;
