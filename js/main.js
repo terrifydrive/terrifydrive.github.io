@@ -45,6 +45,7 @@ $(document).ready(function () {
     var fbAddedflag = false;
     var fbWidth = 0;
     function fbFeedInit() {
+        var stopNext = false;
         if (fbAddedflag != true) {
             fbWidth = parseInt($("#fb-feed-custom-container").width());
             if (fbWidth > 100) {
@@ -56,9 +57,14 @@ $(document).ready(function () {
                 fbAddedflag = true;
             };
         } else {
-            //
+            var fbHeader = $("#fb-feed-custom-container").find("div.userContentWrapper");
+            if (fbHeader) {
+                fbHeader.css("display", "none");
+                stopNext = true;
+            };
         };
-        setTimeout(fbFeedInit, 1000);
+        if (stopNext != true)
+            setTimeout(fbFeedInit, 100);
     };
     setTimeout(fbFeedInit, 100);
 
