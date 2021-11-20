@@ -58,12 +58,12 @@ $(document).ready(function () {
                 console.log("fbAddedflag");
             };
         } else {
-            var fbHeader = $("div#fb-feed-custom-container div.userContentWrapper");
+            var fbHeader = $("div.userContentWrapper");
             if (fbHeader) {
-                fbHeader.css("display", "none");
+                //fbHeader.css("display", "none");
                 stopNext = true;
                 console.log(fbHeader);
-                console.log("hide");
+                console.log("hide2");
             };
         };
         if (stopNext != true)
