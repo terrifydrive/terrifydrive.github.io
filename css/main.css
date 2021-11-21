@@ -118,3 +118,7 @@ body {
 .btn-close {
     border-radius: 0px;
 }
+
+.release-modal {
+    max-width: 350px;
+}
