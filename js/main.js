@@ -43,14 +43,9 @@ $(document).ready(function () {
         };
 
     document.shareCurrentHref = function () {
-        navigator.share(
-            {
-                url: window.location.href,
-                title: 'title...',
-                text: 'text...'
-            }
-        );
+        navigator.share({ url: window.location.href });
     };
+
     //var fbAddedflag = false;
     //var fbWidth = 0;
     //function fbFeedInit() {
