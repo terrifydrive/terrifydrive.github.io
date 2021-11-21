@@ -42,6 +42,15 @@ $(document).ready(function () {
                 modalRelease.modal('show');
         };
 
+    document.shareCurrentHref = function () {
+        navigator.share(
+            {
+                url: window.location.href,
+                title: 'title...',
+                text: 'text...'
+            }
+        );
+    };
     //var fbAddedflag = false;
     //var fbWidth = 0;
     //function fbFeedInit() {
