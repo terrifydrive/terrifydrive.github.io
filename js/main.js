@@ -33,14 +33,14 @@ $(document).ready(function () {
         'alwaysShowNavOnTouchDevices': true
     });
 
-    var url = new URL(window.location.href);
-    var releaseParam = url.searchParams.get("release");
-    if (releaseParam) {
-        var modalRelease = $('#modal-' + releaseParam.toString().toLowerCase());
-        if (modalRelease.length) {
-            modalRelease.modal('show')
-        }
-    };
+    var releaseParam = window.location.hash;
+    if (releaseParam)
+        if (releaseParam.length >= 2) {
+            var releaseName = releaseParam.substring(1);
+            var modalRelease = $('#modal-' + releaseName.toString().toLowerCase());
+            if (modalRelease.length)
+                modalRelease.modal('show');
+        };
 
     //var fbAddedflag = false;
     //var fbWidth = 0;
