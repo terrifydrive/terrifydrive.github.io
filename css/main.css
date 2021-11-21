@@ -109,10 +109,12 @@ body {
     opacity: 0.80;
 }
 
-.list-group {
-    border-radius: 2px;
+.modal-body {
+    padding: 0px;
 }
 
-.modal-body {
-    padding: 2px;
+.modal-content,
+.list-group,
+.btn-close {
+    border-radius: 0px;
 }
