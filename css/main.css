@@ -121,4 +121,5 @@ body {
 
 .release-modal {
     max-width: 350px;
+    margin: auto;
 }
