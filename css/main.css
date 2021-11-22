@@ -131,5 +131,5 @@ body {
 }
 
 .modal-content {
-    border: 0px;
+    border: 4px solid rgba(0,0,0,0);
 }
