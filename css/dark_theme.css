@@ -23,12 +23,12 @@
     color: white;
 }
 
-.custom-link {
+.custom-link,
+.custom-link:focus {
     color: white;
 }
 
     .custom-link:hover,
-    .custom-link:focus,
     .custom-link:active {
         color: #e10600;
     }
