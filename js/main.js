@@ -46,6 +46,10 @@ $(document).ready(function () {
         navigator.share({ url: window.location.href });
     };
 
+    setTimeout(function () {
+        //
+    }, 1000);
+
     //var fbAddedflag = false;
     //var fbWidth = 0;
     //function fbFeedInit() {
