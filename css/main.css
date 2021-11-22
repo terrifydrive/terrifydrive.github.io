@@ -121,6 +121,15 @@ body {
 }
 
 .release-modal {
-    max-width: 350px;
+    max-width: 390px;
     margin: auto;
+}
+
+.modal-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.modal-content {
+    border: 0px;
 }
