@@ -1,6 +1,10 @@
 /* --------------------------- DARK THEME -------------------- */
 /**/
 
+.release-custom-btns {
+    background-color: #555;
+}
+
 .pagebackground:before {
     background-color: #252525;
 }
