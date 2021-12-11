@@ -22,6 +22,14 @@
     background-image: url('./../img/services/boom.svg') !important;
 }
 
+.link-service-vk-music {
+    background-size: 32px auto;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding: 10px 10px 10px 62px;
+    background-image: url('./../img/services/vk_music.svg') !important;
+}
+
 .link-service-vk {
     background-size: 32px auto;
     background-repeat: no-repeat;
