@@ -1,12 +1,12 @@
 /* --------------------------- DARK THEME -------------------- */
 /**/
 
-.release-custom-btns {
-    background-color: #555;
-}
-
 .pagebackground:before {
     background-color: #252525;
+}
+
+.release-custom-btns {
+    background-color: #555;
 }
 
 .list-group-item, .modal-content, .contentwrapper {
