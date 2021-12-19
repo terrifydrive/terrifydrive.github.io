@@ -135,8 +135,7 @@ body {
 }
 
 .release-custom-btns {
-    /*display: block;*/
-    display: none;
+    display: block;
     background-color: #ddd;
     padding: 10px 10px 10px 10px; /*22px;*/
     text-align: center;

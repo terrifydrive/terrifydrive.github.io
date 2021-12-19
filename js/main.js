@@ -46,9 +46,10 @@ $(document).ready(function () {
         navigator.share({ url: window.location.href });
     };
 
-    //$("div.release-custom-btns").append('<a class="custom-fa-btn-a-line" href="https://vk.com/terrifydrive" target="_blank"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i><i class="fab fa-vk fa-stack-1x custom-fa-btn"></i></span></a>');
-    //$("div.release-custom-btns").append('<a class="custom-fa-btn-a-line" href="https://www.facebook.com/terrifydrive" target="_blank"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i><i class="fab fa-facebook-f fa-stack-1x custom-fa-btn"></i></span></a>');
-    //$("div.release-custom-btns").append('<a class="custom-fa-btn-a-line" href="https://www.instagram.com/terrifydrive" target="_blank"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i><i class="fab fa-instagram fa-stack-1x custom-fa-btn"></i></span></a>');
+    $("div.release-custom-btns").append('<a class="custom-fa-btn-a-line" href="https://vk.com/terrifydrive" target="_blank"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i><i class="fab fa-vk fa-stack-1x custom-fa-btn"></i></span></a>');
+    $("div.release-custom-btns").append('<a class="custom-fa-btn-a-line" href="https://www.youtube.com/channel/UCsIHFfuly9ZMk4y7xbc2k4A" target="_blank"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i><i class="fab fa-youtube fa-stack-1x custom-fa-btn"></i></span></a>');
+    $("div.release-custom-btns").append('<a class="custom-fa-btn-a-line" href="https://www.facebook.com/terrifydrive" target="_blank"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i><i class="fab fa-facebook-f fa-stack-1x custom-fa-btn"></i></span></a>');
+    $("div.release-custom-btns").append('<a class="custom-fa-btn-a-line" href="https://www.instagram.com/terrifydrive" target="_blank"><span class="fa-stack"><i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i><i class="fab fa-instagram fa-stack-1x custom-fa-btn"></i></span></a>');
 
 
     //var fbAddedflag = false;
