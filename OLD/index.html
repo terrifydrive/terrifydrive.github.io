@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <meta name="description" content="">
+    <meta name="author" content="Alex K">
+    <meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate" />
+    <!--<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">-->
+    <title>Terrify Drive</title>
+
+    <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="./assets/slick/slick.css" rel="stylesheet" />
+    <link href="./assets/slick/slick-theme.css" rel="stylesheet" />
+    <link href="./assets/lightbox2/css/lightbox.min.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/dark_theme.css" rel="stylesheet" />
+    <link href="./css/carousel.css" rel="stylesheet" />
+    <link href="./css/link_service.css" rel="stylesheet" />
+    <link href="./css/photo_gallery.css" rel="stylesheet" />
+
+    <!-- fonts.google.com -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+
+<body class="h-100">
+
+    <div class="pagebackground">
+    </div>
+
+    <div class="container-lg custom-padding-container">
+
+        <div class="contentwrapper">
+            <img src="./img/banner.jpg" class="img-fluid" alt="...">
+            <div class="container-lg">
+                <div style="margin-top: -55px;">
+
+
+                    <!-- banner big -->
+                    <div class="d-none d-sm-none d-md-block">
+                        <div class="row">
+                            <div class="col">
+                                <span class="custom-header-text"><!--Terrify Drive-->&nbsp;</span>
+                            </div>
+                            <div class="col">
+                                <div class="custom-fa-btns-block">
+                                    <a class="custom-fa-btn-a" href="https://vk.com/terrifydrive" target="_blank">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                                            <i class="fab fa-vk fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
+                                    <!--<a class="custom-fa-btn-a" href="https://www.youtube.com/channel/UCsIHFfuly9ZMk4y7xbc2k4A" target="_blank">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                                            <i class="fab fa-youtube fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
+                                    <a class="custom-fa-btn-a" href="https://www.facebook.com/terrifydrive" target="_blank">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                                            <i class="fab fa-facebook-f fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
+                                    <a class="custom-fa-btn-a" href="https://www.instagram.com/terrifydrive" target="_blank">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                                            <i class="fab fa-instagram fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>-->
+                                    <a class="custom-fa-btn-a-line" href="#" onclick="shareCurrentHref();">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i>
+                                            <i class="fa fa-share-alt fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="font-size: 7px;">
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- banner small -->
+                    <div class="d-block d-md-none">
+                        <div class="row">
+                            <div class="col" style="font-size: 12px;">
+                                <span><br /></span>
+                                <span class="custom-header-text-small"><!--Terrify Drive-->&nbsp;</span>
+                                <div style="font-size: 5px;">
+                                    <span><br /></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="custom-fa-btns-line">
+                                    <a class="custom-fa-btn-a-line" href="https://vk.com/terrifydrive" target="_blank">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i>
+                                            <i class="fab fa-vk fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
+                                    <!--<a class="custom-fa-btn-a-line" href="https://www.youtube.com/channel/UCsIHFfuly9ZMk4y7xbc2k4A" target="_blank">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i>
+                                            <i class="fab fa-youtube fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
+                                    <a class="custom-fa-btn-a-line" href="https://www.facebook.com/terrifydrive" target="_blank">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i>
+                                            <i class="fab fa-facebook-f fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
+                                    <a class="custom-fa-btn-a-line" href="https://www.instagram.com/terrifydrive" target="_blank">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i>
+                                            <i class="fab fa-instagram fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>-->
+                                    <a class="custom-fa-btn-a-line" href="#" onclick="shareCurrentHref();">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x custom-fa-btn-light"></i>
+                                            <i class="fa fa-share-alt fa-stack-1x custom-fa-btn"></i>
+                                        </span>
+                                    </a>
+                                    <hr />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- info -->
+                    <div>
+                        <div class="row">
+                            <div class="col">
+                                <h4>Info</h4>
+                                Terrify Drive is a music band formed in June 2021 in Minsk, Belarus. The band's style represents a mixture of Industrial metal, Alternative rock with elements of Hip-hop and Electronic music<br /><br />
+                                Listen Now:
+                                <a class="custom-link" href="https://music.apple.com/ru/artist/terrify-drive/1595354173" target="_blank">Apple Music</a>,
+                                <a class="custom-link" href="https://open.spotify.com/artist/4rMXPcSc4q7tXsmKbcnjUQ" target="_blank">Spotify</a>,
+                                <a class="custom-link" href="https://music.yandex.ru/artist/13814214" target="_blank">Yandex Music</a>,
+                                <a class="custom-link" href="https://vk.com/artist/terrifydrive" target="_blank">VK</a>,
+                                <a class="custom-link" href="https://share.boom.ru/artist/19605358/?share_auth=02170711580013a692811a619b5c10" target="_blank">VK Music</a>,
+                                <a class="custom-link" href="https://www.deezer.com/artist/151373222" target="_blank">Deezer</a>
+                                <br /><br />
+                                E-mail: <a class="custom-link" href="mailto:terrifydrive@gmail.com" target="_blank">terrifydrive@gmail.com</a>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- releases -->
+                    <div>
+                        <hr />
+                        <div class="row">
+                            <div class="col">
+                                <h4>Releases</h4>
+                                <div style="font-size: 7px;">
+                                    <span><br /></span>
+                                </div>
+                                <div class="container-lg">
+
+                                    <div class="releases-carousel">
+                                        <!--
+                                        <div class="carousel-img overlay-container">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-scary-sheeps">
+                                                <img src="./img/covers/scary_sheeps.jpg" class="img-fluid" alt="...">
+                                                <div class="overlay-centered-text"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+                                            </a>
+                                        </div>
+                                        <div class="carousel-img overlay-container">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-alien">
+                                                <img src="./img/covers/alien.jpg" class="img-fluid" alt="...">
+                                                <div class="overlay-centered-text"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+                                            </a>
+                                        </div>
+                                        <div class="carousel-img overlay-container">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-damned-street">
+                                                <img src="./img/covers/damned_street.jpg" class="img-fluid" alt="...">
+                                                <div class="overlay-centered-text"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+                                            </a>
+                                        </div>
+                                        <div class="carousel-img overlay-container">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-sharks">
+                                                <img src="./img/covers/sharks.jpg" class="img-fluid" alt="...">
+                                                <div class="overlay-centered-text"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+                                            </a>
+                                        </div>
+                                        <div class="carousel-img overlay-container">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-to-be-alive">
+                                                <img src="./img/covers/to_be_alive.jpg" class="img-fluid" alt="...">
+                                                <div class="overlay-centered-text"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+                                            </a>
+                                        </div>
+                                        -->
+                                        <div class="carousel-img overlay-container">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-ghostly-party">
+                                                <img src="./img/covers/ghostly_party.jpg" class="img-fluid" alt="...">
+                                                <div class="overlay-centered-text"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+                                            </a>
+                                        </div>
+                                        <div class="carousel-img overlay-container">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal-finish-for-the-new-start">
+                                                <img src="./img/covers/finish_for_the_new_start.jpg" class="img-fluid" alt="...">
+                                                <div class="overlay-centered-text"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="releases-modals">
+
+                                        <div class="modal" id="modal-finish-for-the-new-start" tabindex="-1" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered release-modal">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Finish for the New Start [Single]</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="./img/covers/finish_for_the_new_start.jpg" class="img-fluid" alt="...">
+                                                        <div class="list-group">
+                                                            <a href="https://music.apple.com/en/album/1595354398" target="_blank" class="list-group-item list-group-item-action link-service-apple-music">Apple Music</a>
+                                                            <a href="https://open.spotify.com/album/7J8qlHcqMz0cxhFpxRhZLa" target="_blank" class="list-group-item list-group-item-action link-service-spotify">Spotify</a>
+                                                            <a href="https://music.yandex.ru/album/19366327" target="_blank" class="list-group-item list-group-item-action link-service-yandex-music">Yandex Music</a>
+                                                            <a href="https://vk.com/music/album/-2000672641_13672641_a459d46b285862a97b" target="_blank" class="list-group-item list-group-item-action link-service-vk">VK</a>
+                                                            <a href="https://share.boom.ru/album/18083917/?share_auth=02e1a14215108771af811a61b36b70" target="_blank" class="list-group-item list-group-item-action link-service-vk-music">VK Music</a>
+                                                            <a href="http://www.deezer.com/album/272689722" target="_blank" class="list-group-item list-group-item-action link-service-deezer">Deezer</a>
+                                                        </div>
+                                                        <div class="release-custom-btns"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal" id="modal-ghostly-party" tabindex="-1" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered release-modal">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Ghostly Party [Single]</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="./img/covers/ghostly_party.jpg" class="img-fluid" alt="...">
+                                                        <div class="list-group">
+                                                            <a href="https://music.apple.com/en/album/1599389525" target="_blank" class="list-group-item list-group-item-action link-service-apple-music">Apple Music</a>
+                                                            <a href="https://open.spotify.com/album/6vQDlq8ZovaU1G4i4ljGqR" target="_blank" class="list-group-item list-group-item-action link-service-spotify">Spotify</a>
+                                                            <a href="https://music.yandex.ru/album/19908026" target="_blank" class="list-group-item list-group-item-action link-service-yandex-music">Yandex Music</a>
+                                                            <a href="https://vk.com/music/album/-2000991139_13991139_3b09838231a92c0e13" target="_blank" class="list-group-item list-group-item-action link-service-vk">VK</a>
+                                                            <a href="https://share.boom.ru/album/18423602/?share_auth=02033ebbe4f7eb37c1811a61b9e6d0" target="_blank" class="list-group-item list-group-item-action link-service-vk-music">VK Music</a>
+                                                            <a href="http://www.deezer.com/album/279195572" target="_blank" class="list-group-item list-group-item-action link-service-deezer">Deezer</a>
+                                                        </div>
+                                                        <div class="release-custom-btns"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--
+                                        <div class="modal" id="modal-scary-sheeps" tabindex="-1" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered release-modal">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Scary Sheeps [Single]</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="./img/covers/scary_sheeps.jpg" class="img-fluid" alt="...">
+                                                        <div class="list-group">
+                                                            <a href="https://music.apple.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-apple-music">Apple Music</a>
+                                                            <a href="https://open.spotify.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-spotify">Spotify</a>
+                                                            <a href="https://music.yandex.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-yandex-music">Yandex Music</a>
+                                                            <a href="https://vk.com/music/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk">VK</a>
+                                                            <a href="https://share.boom.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk-music">VK Music</a>
+                                                            <a href="http://www.deezer.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-deezer">Deezer</a>
+                                                        </div>
+                                                        <div class="release-custom-btns"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal" id="modal-alien" tabindex="-1" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered release-modal">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Alien [Single]</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="./img/covers/alien.jpg" class="img-fluid" alt="...">
+                                                        <div class="list-group">
+                                                            <a href="https://music.apple.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-apple-music">Apple Music</a>
+                                                            <a href="https://open.spotify.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-spotify">Spotify</a>
+                                                            <a href="https://music.yandex.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-yandex-music">Yandex Music</a>
+                                                            <a href="https://vk.com/music/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk">VK</a>
+                                                            <a href="https://share.boom.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk-music">VK Music</a>
+                                                            <a href="http://www.deezer.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-deezer">Deezer</a>
+                                                        </div>
+                                                        <div class="release-custom-btns"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal" id="modal-damned-street" tabindex="-1" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered release-modal">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Damned Street [Single]</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="./img/covers/damned_street.jpg" class="img-fluid" alt="...">
+                                                        <div class="list-group">
+                                                            <a href="https://music.apple.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-apple-music">Apple Music</a>
+                                                            <a href="https://open.spotify.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-spotify">Spotify</a>
+                                                            <a href="https://music.yandex.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-yandex-music">Yandex Music</a>
+                                                            <a href="https://vk.com/music/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk">VK</a>
+                                                            <a href="https://share.boom.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk-music">VK Music</a>
+                                                            <a href="http://www.deezer.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-deezer">Deezer</a>
+                                                        </div>
+                                                        <div class="release-custom-btns"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal" id="modal-sharks" tabindex="-1" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered release-modal">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Sharks [Single]</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="./img/covers/sharks.jpg" class="img-fluid" alt="...">
+                                                        <div class="list-group">
+                                                            <a href="https://music.apple.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-apple-music">Apple Music</a>
+                                                            <a href="https://open.spotify.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-spotify">Spotify</a>
+                                                            <a href="https://music.yandex.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-yandex-music">Yandex Music</a>
+                                                            <a href="https://vk.com/music/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk">VK</a>
+                                                            <a href="https://share.boom.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk-music">VK Music</a>
+                                                            <a href="http://www.deezer.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-deezer">Deezer</a>
+                                                        </div>
+                                                        <div class="release-custom-btns"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal" id="modal-to-be-alive" tabindex="-1" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered release-modal">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">To be Alive [Single]</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="./img/covers/to_be_alive.jpg" class="img-fluid" alt="...">
+                                                        <div class="list-group">
+                                                            <a href="https://music.apple.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-apple-music">Apple Music</a>
+                                                            <a href="https://open.spotify.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-spotify">Spotify</a>
+                                                            <a href="https://music.yandex.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-yandex-music">Yandex Music</a>
+                                                            <a href="https://vk.com/music/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk">VK</a>
+                                                            <a href="https://share.boom.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk-music">VK Music</a>
+                                                            <a href="http://www.deezer.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-deezer">Deezer</a>
+                                                        </div>
+                                                        <div class="release-custom-btns"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal" id="modal-***" tabindex="-1" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered release-modal">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">*** [Single]</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="./img/covers/***.jpg" class="img-fluid" alt="...">
+                                                        <div class="list-group">
+                                                            <a href="https://music.apple.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-apple-music">Apple Music</a>
+                                                            <a href="https://open.spotify.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-spotify">Spotify</a>
+                                                            <a href="https://music.yandex.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-yandex-music">Yandex Music</a>
+                                                            <a href="https://vk.com/music/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk">VK</a>
+                                                            <a href="https://share.boom.ru/album/***" target="_blank" class="list-group-item list-group-item-action link-service-vk-music">VK Music</a>
+                                                            <a href="http://www.deezer.com/album/***" target="_blank" class="list-group-item list-group-item-action link-service-deezer">Deezer</a>
+                                                        </div>
+                                                        <div class="release-custom-btns"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        -->
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- news -->
+                    <div>
+                        <!--<hr />
+                        <div class="row">
+                            <div class="col">
+                                <h4>News</h4>
+                                <div style="font-size: 7px;">
+                                    <span><br /></span>
+                                </div>
+                                <div class="container-lg">
+                                    ...
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+
+
+                    <!-- videos -->
+                    <div>
+                        <!--<hr />
+                        <div class="row">
+                            <div class="col">
+                                <h4>Videos</h4>
+                                <div style="font-size: 7px;">
+                                    <span><br /></span>
+                                </div>
+                                <div class="container-lg">
+                                    ...
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+
+
+                    <!-- photos -->
+                    <div>
+                        <hr />
+                        <div class="row">
+                            <div class="col">
+                                <h4>Photos</h4>
+                                <div style="font-size: 7px;">
+                                    <span><br /></span>
+                                </div>
+
+                                <div class="photo-gallery">
+                                    <div class="container-lg">
+
+                                        <!-- Photos always visible (8 pcs.) -->
+                                        <div class="row photos">
+                                            <div class="col-6 col-sm-4 col-md-3 item">
+                                                <a href="./img/photos/01/01.jpg" data-lightbox="photos">
+                                                    <img class="img-fluid" src="./img/photos/01/01.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 item">
+                                                <a href="./img/photos/01/02.jpg" data-lightbox="photos">
+                                                    <img class="img-fluid" src="./img/photos/01/02.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 item">
+                                                <a href="./img/photos/01/03.jpg" data-lightbox="photos">
+                                                    <img class="img-fluid" src="./img/photos/01/03.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 item">
+                                                <a href="./img/photos/01/04.jpg" data-lightbox="photos">
+                                                    <img class="img-fluid" src="./img/photos/01/04.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 item">
+                                                <a href="./img/photos/01/05.jpg" data-lightbox="photos">
+                                                    <img class="img-fluid" src="./img/photos/01/05.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 item">
+                                                <a href="./img/photos/01/06.jpg" data-lightbox="photos">
+                                                    <img class="img-fluid" src="./img/photos/01/06.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 item">
+                                                <a href="./img/photos/01/07.jpg" data-lightbox="photos">
+                                                    <img class="img-fluid" src="./img/photos/01/07.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-3 item">
+                                                <a href="./img/photos/01/08.jpg" data-lightbox="photos">
+                                                    <img class="img-fluid" src="./img/photos/01/08.jpg">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div style="padding-left: 2px; padding-top:7px;">
+                                                <a id="collapsePhotosButton" class="custom-link collapse multi-collapse show" data-bs-toggle="collapse" data-bs-target=".multi-collapse" href="#" role="button" aria-expanded="false" aria-controls="collapsePhotosButton collapsePhotos">
+                                                    View all ...
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="collapse multi-collapse" id="collapsePhotos">
+
+                                            <!-- Hidden photos -->
+                                            <div class="row photos">
+                                                <!--<div class="col-6 col-sm-4 col-md-3 item">
+                                                    <a href="./img/photos/01/09.jpg" data-lightbox="photos">
+                                                        <img class="img-fluid" src="./img/photos/01/09.jpg">
+                                                    </a>
+                                                </div>
+                                                <div class="col-6 col-sm-4 col-md-3 item">
+                                                    <a href="./img/photos/01/10.jpg" data-lightbox="photos">
+                                                        <img class="img-fluid" src="./img/photos/01/10.jpg">
+                                                    </a>
+                                                </div>-->
+                                            </div>
+
+                                            <div class="row">
+                                                <div style="padding-left: 2px; padding-top: 7px;">
+                                                    <a class="custom-link" data-bs-toggle="collapse" data-bs-target=".multi-collapse" href="#collapsePhotos" role="button" aria-expanded="false" aria-controls="collapsePhotos collapsePhotosButton">
+                                                        &lt;&lt; Hide
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <br />
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footerwrapper">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col">
+                        <h6>Terrify Drive © 2021-2022</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./assets/slick/slick.min.js"></script>
+    <script src="./assets/lightbox2/js/lightbox.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
