@@ -13,12 +13,11 @@ export class ReleaseComponent implements OnInit, OnDestroy {
     releaseConfigs: any | undefined;
 
     constructor(private activateRoute: ActivatedRoute, private router: Router) {
+
         this.releaseName = activateRoute.snapshot.params["releaseName"];
         if (this.releaseName)
             this.releaseName = "_" + this.releaseName.toLowerCase().replace('-', '_');
-    }
 
-    ngOnInit() {
         this.releaseConfigs = {
             _finish_for_the_new_start: {
                 name: "Finish for the New Start",
@@ -56,14 +55,11 @@ export class ReleaseComponent implements OnInit, OnDestroy {
                 cover: "scary_sheeps.jpg"
             },
         };
+    }
 
-        if (!this.releaseConfigs[this.releaseName]) {
-            console.log("no release!");
-            this.router.navigate['../home'];
-        }
-        else {
-            console.log(this.releaseConfigs[this.releaseName]);
-        }
+    ngOnInit() {
+        if (!this.releaseConfigs[this.releaseName])
+            window.location.replace(window.location.protocol + "//" + window.location.host);
     }
 
     ngOnDestroy() {
