@@ -1,1 +1,6 @@
 ﻿.vs/
+*.csproj.user
+*.xproj.user
+[Oo]bj/
+[Bb]in/
+**/node_modules/
