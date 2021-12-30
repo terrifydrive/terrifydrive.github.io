@@ -5,18 +5,17 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
-import { NotFoundComponent } from './not-found.component';
 import { ReleaseComponent } from './release.component';
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'release/:releaseName', component: ReleaseComponent },
-    { path: '**', component: NotFoundComponent },
+    { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
     imports: [BrowserModule, FormsModule, RouterModule.forRoot(appRoutes)],
-    declarations: [AppComponent, HomeComponent, ReleaseComponent, NotFoundComponent],
+    declarations: [AppComponent, HomeComponent, ReleaseComponent],
     bootstrap: [AppComponent]
 })
 
