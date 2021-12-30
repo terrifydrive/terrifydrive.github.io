@@ -4,7 +4,8 @@ import { Router } from "@angular/router"
 
 @Component({
     selector: 'release-app',
-    template: `<h3>Release page ({{releaseName}})</h3>`
+    templateUrl: './release.component.html',
+    styleUrls: ['./release.component.css'],
 })
 
 export class ReleaseComponent implements OnInit, OnDestroy {
