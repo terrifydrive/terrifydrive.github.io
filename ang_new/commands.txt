@@ -1,6 +1,0 @@
-npm install -g @angular/cli
-ng version
-cd C:\AbletonLib\MyProjects\GitHub\terrifydrive.github.io\NEW
-npm install
-ng serve --open
-ng build
