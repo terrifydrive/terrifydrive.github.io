@@ -15,6 +15,12 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.json",
             "assets": [ "src/favicon.png" ],
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ],
             "aot": true
           }
         },
