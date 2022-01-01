@@ -1,0 +1,27 @@
+.release-page-background:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -9999;
+    display: block;
+    background-image: url('./../../img/texture.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /*transform: scale(1.05);*/
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.release-page-background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -9999;
+}
