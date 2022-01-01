@@ -4,19 +4,32 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home.component';
-import { ReleaseComponent } from './release.component';
-import { NotFoundComponent } from './not-found.component';
+import { HomeComponent } from './components/home.component';
+import { ReleaseComponent } from './components/release.component';
+import { NotFoundComponent } from './components/not-found.component';
+
+import { ReleaseConfigService } from './services/release-config.service';
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'release/:releaseName', component: ReleaseComponent },
+    { path: 'release/:releaseId', component: ReleaseComponent },
     { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({
-    imports: [BrowserModule, FormsModule, RouterModule.forRoot(appRoutes)],
-    declarations: [AppComponent, HomeComponent, ReleaseComponent],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        RouterModule.forRoot(appRoutes)
+    ],
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        ReleaseComponent
+    ],
+    providers: [
+        ReleaseConfigService
+    ],
     bootstrap: [AppComponent]
 })
 
