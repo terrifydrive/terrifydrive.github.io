@@ -14,9 +14,11 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.json",
-            "assets": [ "src/favicon.png" ],
+            "assets": [ "src/favicon.png", "src/img/" ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/css/main.css",
+              "src/css/dark-theme.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
