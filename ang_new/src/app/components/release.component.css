@@ -1,27 +1,45 @@
-.release-page-background:before {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -9999;
-    display: block;
-    background-image: url('./../../img/covers/alien.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    /*transform: scale(1.05);*/
-    -webkit-filter: blur(4px);
-    -moz-filter: blur(4px);
-    -o-filter: blur(4px);
-    -ms-filter: blur(4px);
-    filter: blur(4px);
-}
-
 .release-page-background {
     position: fixed;
     left: 0;
     right: 0;
     z-index: -9999;
+    display: block;
+    /*background-image: url('./../../img/covers/alien.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transform: scale(1.05);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+
+.contentwrapper {
+    background-color: black;
+    color: white;
+}
+
+.container-fluid {
+    max-width: 600px;
+}
+
+.footerwrapper {
+    padding-top: 8px;
+    color: white;
+    text-shadow: 0 0 5px #000000, 0 0 4px #000000;
+    text-align: center;
+}
+
+.custom-padding-container {
+    padding: 30px 50px 0px 50px;
+}
+
+.release-top-text {
+    font-size: 25px;
+    border-bottom: 8px solid #cd0000;
 }

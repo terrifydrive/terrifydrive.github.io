@@ -13,14 +13,14 @@ export class ReleaseComponent implements OnInit, OnDestroy {
 
     releaseId: string | undefined;
     releaseConfig: any | undefined;
+    yearNow: number | 0;
 
     constructor(private activateRoute: ActivatedRoute, private router: Router, private releaseConfigService: ReleaseConfigService) {
-
         this.releaseId = activateRoute.snapshot.params["releaseId"];
         if (this.releaseId)
             this.releaseId = "_" + this.releaseId.toLowerCase().replace('-', '_');
-
         this.releaseConfig = releaseConfigService.getReleaseConfig(this.releaseId);
+        this.yearNow = new Date().getFullYear();
     }
 
     ngOnInit() {

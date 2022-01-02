@@ -1,28 +1,29 @@
 <div>
 
-    <!--<span>{{releaseConfig.cover}}</span>-->
-
-    <div class="release-page-background">
+    <div class="release-page-background" [style.background-image]="'url(./../../img/covers/' + releaseConfig.cover + ')'">
     </div>
 
-    <!--<div class="container-lg custom-padding-container">
+    <div class="container-fluid custom-padding-container">
 
         <div class="contentwrapper">
-            <img src="./img/banner.jpg" class="img-fluid" alt="...">
-            <div class="container-lg">
-                ...
+            <div>
+                <span class="release-top-text">Release</span>
+            </div>
+            <img src="./../../img/covers/{{releaseConfig.cover}}" class="img-fluid" alt="...">
+            <div class="container-fluid">
+                ...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />...<br />
             </div>
         </div>
 
         <div class="footerwrapper">
-            <div class="container-lg">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col">
-                        <h6>Terrify Drive © 2021-2022</h6>
+                        <h6>Terrify Drive © 2021-{{yearNow}}</h6>
                     </div>
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
 </div>
