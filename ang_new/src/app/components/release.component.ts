@@ -21,10 +21,19 @@ export class ReleaseComponent implements OnInit, OnDestroy {
     constructor(private activateRoute: ActivatedRoute, private router: Router, private releaseConfigService: ReleaseConfigService, private commonConfigService: CommonConfigService) {
         this.releaseId = activateRoute.snapshot.params["releaseId"];
         if (this.releaseId)
-            this.releaseId = "_" + this.releaseId.toLowerCase().replace('-', '_');
+            this.releaseId = "_" + this.customReplaceAll(this.releaseId.toLowerCase(), "-", "_");
+        //console.log("ReleaseId: '" + this.releaseId + "'");
         this.releaseConfig = releaseConfigService.getReleaseConfig(this.releaseId);
         this.commonConfig = commonConfigService.getCommonConfig();
         this.yearNow = new Date().getFullYear();
+    }
+
+    escapeRegExp(str) {
+        return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    customReplaceAll(str, find, replace) {
+        return str.replace(new RegExp(this.escapeRegExp(find), 'g'), replace);
     }
 
     ngOnInit() {
