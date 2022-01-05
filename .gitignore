@@ -5,4 +5,4 @@
 [Bb]in/
 **/node_modules/
 **/.angular/
-**/ang_new/dist/
+**/app-dev/dist/
