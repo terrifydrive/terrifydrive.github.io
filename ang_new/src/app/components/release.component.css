@@ -18,14 +18,13 @@
     filter: blur(10px);
 }
 
-
 .contentwrapper {
-    background-color: black;
+    background-color: #252525;
     color: white;
 }
 
 .container-fluid {
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .footerwrapper {
@@ -41,5 +40,25 @@
 
 .release-top-text {
     font-size: 25px;
-    border-bottom: 8px solid #cd0000;
+    padding: 7px 7px 7px 15px;
+    border-bottom: 1px solid dimgray;
 }
+
+/***********************************************************/
+
+.list-group {
+    border-radius: 0px;
+}
+
+.list-group-item {
+    font-size: 17px;
+    background-color: #252525;
+    color: white;
+}
+
+    .list-group-item:hover {
+        background-color: #353535;
+        color: white;
+    }
+
+/***********************************************************/
