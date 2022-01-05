@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home.component';
 import { ReleaseComponent } from './components/release.component';
 import { NotFoundComponent } from './components/not-found.component';
 
+import { CommonConfigService } from './services/common-config.service';
 import { ReleaseConfigService } from './services/release-config.service';
 
 const appRoutes: Routes = [
@@ -28,7 +29,8 @@ const appRoutes: Routes = [
         ReleaseComponent
     ],
     providers: [
-        ReleaseConfigService
+        ReleaseConfigService,
+        CommonConfigService
     ],
     bootstrap: [AppComponent]
 })
