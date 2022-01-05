@@ -11,6 +11,12 @@ import { NotFoundComponent } from './components/not-found.component';
 import { CommonConfigService } from './services/common-config.service';
 import { ReleaseConfigService } from './services/release-config.service';
 
+
+if (window.location.hash) // Addresses with '/#xxxx' (releases)
+    if (window.location.hash.length >= 2)
+        console.log("Release!");
+        //window.location.replace(window.location.protocol + "//" + window.location.host + "/release/" + window.location.hash.substring(1));
+
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'release/:releaseId', component: ReleaseComponent },
