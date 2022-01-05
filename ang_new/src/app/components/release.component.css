@@ -35,10 +35,10 @@
 }
 
 .custom-padding-container {
-    padding: 30px 50px 0px 50px;
+    padding: 15px 40px 0px 40px;
 }
 
-.release-top-text {
+.release-header-text {
     font-size: 25px;
     padding: 7px 7px 7px 15px;
     border-bottom: 1px solid dimgray;
