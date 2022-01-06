@@ -14,7 +14,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.json",
-            "assets": [ "src/favicon.png", "src/img/", "src/mp3/", "src/README.md" ],
+            "assets": [ "src/favicon.png", "src/img/", "src/README.md" ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/css/main.css",
