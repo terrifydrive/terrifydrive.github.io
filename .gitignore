@@ -5,4 +5,4 @@
 [Bb]in/
 **/node_modules/
 **/.angular/
-**/app-dev/dist/
+**/_app_dev/dist/
