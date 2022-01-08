@@ -12,9 +12,6 @@ import { CommonConfigService } from './services/common-config.service';
 import { ReleaseConfigService } from './services/release-config.service';
 
 
-//if (window.location.hash) // Addresses with '/#xxxx' (releases)
-//    if (window.location.hash.length >= 2)
-//        console.log("Release!");
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },

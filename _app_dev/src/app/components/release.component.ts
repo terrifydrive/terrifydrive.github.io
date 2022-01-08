@@ -22,7 +22,6 @@ export class ReleaseComponent implements OnInit, OnDestroy {
         this.releaseId = activateRoute.snapshot.params["releaseId"];
         if (this.releaseId)
             this.releaseId = "_" + this.customReplaceAll(this.releaseId.toLowerCase(), "-", "_");
-        //console.log("ReleaseId: '" + this.releaseId + "'");
         this.releaseConfig = releaseConfigService.getReleaseConfig(this.releaseId);
         this.commonConfig = commonConfigService.getCommonConfig();
         this.yearNow = new Date().getFullYear();

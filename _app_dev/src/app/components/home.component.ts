@@ -10,12 +10,19 @@ import { CommonConfigService } from './../services/common-config.service';
 
 export class HomeComponent implements OnInit, OnDestroy {
 
-    releasesConfig: any | undefined;
+    releasesList: any | undefined;
     commonConfig: any | undefined;
     yearNow: number | 0;
 
     constructor(private releaseConfigService: ReleaseConfigService, private commonConfigService: CommonConfigService) {
-        this.releasesConfig = releaseConfigService.getAllReleasesConfigs();
+        let releasesConfigs = releaseConfigService.getAllReleasesConfigs();
+        this.releasesList = [];
+        for (var prop in releasesConfigs)
+            if (prop.startsWith("_"))
+                this.releasesList.push({
+                    href: "/release/" + this.customReplaceAll(prop.substring(1), "_", "-"),
+                    item: releasesConfigs[prop]
+                });
         this.commonConfig = commonConfigService.getCommonConfig();
         this.yearNow = new Date().getFullYear();
     }

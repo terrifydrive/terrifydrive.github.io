@@ -1,3 +1,5 @@
 <div>
-    ***
+    <div *ngFor="let r of releasesList">
+        <a href="{{r.href}}">{{r.item.name}}</a>
+    </div>
 </div>
