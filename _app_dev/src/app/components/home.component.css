@@ -1,0 +1,65 @@
+.page-background {
+    background-color: #252525;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -9999;
+    display: block;
+    /*background-image: url('./../../img/texture.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transform: scale(1.05);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.contentwrapper {
+    background-color: #252525;
+    color: white;
+}
+
+.container-fluid {
+    max-width: 500px;
+}
+
+.footerwrapper {
+    padding-top: 8px;
+    color: white;
+    text-shadow: 0 0 5px #000000, 0 0 4px #000000;
+    text-align: center;
+}
+
+.custom-padding-container {
+    padding: 20px 35px 0px 35px;
+}
+
+.header-text {
+    font-size: 25px;
+    padding: 7px 7px 7px 15px;
+    border-bottom: 1px solid dimgray;
+}
+
+/***********************************************************/
+
+.list-group {
+    border-radius: 0px;
+}
+
+.list-group-item {
+    font-size: 17px;
+    background-color: #252525;
+    color: white;
+}
+
+    .list-group-item:hover {
+        background-color: #353535;
+        color: white;
+    }
+
+/***********************************************************/
