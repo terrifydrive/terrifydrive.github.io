@@ -5,7 +5,7 @@ import { CommonConfigService } from './../services/common-config.service';
 @Component({
     selector: 'home-app',
     templateUrl: './home.component.html',
-    styleUrls: ['./home.component.css'],
+    styleUrls: ['./../../css/release-page.css', './../../css/link-service.css']
 })
 
 export class HomeComponent implements OnInit, OnDestroy {

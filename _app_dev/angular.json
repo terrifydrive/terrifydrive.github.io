@@ -17,8 +17,7 @@
             "assets": [ "src/favicon.png", "src/img/", "src/README.md" ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/css/main.css",
-              "src/css/link-service.css"
+              "src/css/main.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
