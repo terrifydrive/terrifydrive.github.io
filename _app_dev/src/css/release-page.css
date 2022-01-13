@@ -71,3 +71,10 @@
 }
 
 /***********************************************************/
+
+.release-add-btns {
+    display: block;
+    background-color: #ddd;
+    padding: 7px 10px 7px 10px;
+    text-align: center;
+}
