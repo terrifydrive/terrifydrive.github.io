@@ -34,17 +34,17 @@ export class ReleaseConfigService {
         //    link_vk_music: "#",
         //    link_deezer: "#"
         //},
-        //_sharks: {
-        //    name: "Sharks",
-        //    type: "Single",
-        //    cover: "sharks.jpg",
-        //    link_apple_music: "#",
-        //    link_spotify: "#",
-        //    link_yandex_music: "#",
-        //    link_vk: "#",
-        //    link_vk_music: "#",
-        //    link_deezer: "#"
-        //},
+        _sharks: {
+            name: "Sharks",
+            type: "Single",
+            cover: "sharks.jpg",
+            link_apple_music: "https://music.apple.com/album/1601684303",
+            link_spotify: "https://open.spotify.com/album/6pK1FnffDA8TvJdGxQEXyy",
+            link_yandex_music: "https://music.yandex.ru/album/20184307",
+            link_vk: "https://vk.com/music/album/-2000149003_14149003_b742899b8c6f0f8fe3",
+            link_vk_music: "https://share.boom.ru/album/18587144/?share_auth=0212b175f6c4425143811a61e5aea0",
+            link_deezer: "https://www.deezer.com/ru/album/282640942"
+        },
         _to_be_alive: {
             name: "To Be Alive",
             type: "Single",
