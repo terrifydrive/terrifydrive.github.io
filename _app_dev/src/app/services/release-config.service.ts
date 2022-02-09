@@ -25,18 +25,18 @@ export class ReleaseConfigService {
         //    link_deezer: "#",
         //    link_youtube_music: "#"
         //},
-        //_damned_street: {
-        //    name: "Damned Street",
-        //    type: "Single",
-        //    cover: "damned-street.jpg",
-        //    link_apple_music: "#",
-        //    link_spotify: "#",
-        //    link_yandex_music: "#",
-        //    link_vk: "#",
-        //    link_vk_music: "#",
-        //    link_deezer: "#",
-        //    link_youtube_music: "#"
-        //},
+        _damned_street: {
+            name: "Damned Street",
+            type: "Single",
+            cover: "damned-street.jpg",
+            link_apple_music: "https://music.apple.com/album/1601914067",
+            link_spotify: "https://open.spotify.com/album/0kRGbhhYe1cjLxUWQTF5mI",
+            link_yandex_music: "https://music.yandex.ru/album/20213844",
+            link_vk: "https://vk.com/music/album/-2000165319_14165319_04386f25e5c30e903f",
+            link_vk_music: "https://share.boom.ru/album/18603904/?share_auth=0275305ead3f7e0014811a6203acc0",
+            link_deezer: "https://www.deezer.com/album/282963102",
+            link_youtube_music: "https://music.youtube.com/playlist?list=OLAK5uy_n3cKF7oYVNJfeWT8hXCUZLc1ZpSnVmYP0"
+        },
         _sharks: {
             name: "Sharks",
             type: "Single",
@@ -46,7 +46,7 @@ export class ReleaseConfigService {
             link_yandex_music: "https://music.yandex.ru/album/20184307",
             link_vk: "https://vk.com/music/album/-2000149003_14149003_b742899b8c6f0f8fe3",
             link_vk_music: "https://share.boom.ru/album/18587144/?share_auth=0212b175f6c4425143811a61e5aea0",
-            link_deezer: "https://www.deezer.com/ru/album/282640942",
+            link_deezer: "https://www.deezer.com/album/282640942",
             link_youtube_music: "https://music.youtube.com/playlist?list=OLAK5uy_na7qR8jnDqrNS-xmIolDGuJgF2doteyks"
         },
         _to_be_alive: {
@@ -82,7 +82,7 @@ export class ReleaseConfigService {
             link_yandex_music: "https://music.yandex.ru/album/19366327",
             link_vk: "https://vk.com/music/album/-2000672641_13672641_a459d46b285862a97b",
             link_vk_music: "https://share.boom.ru/album/18083917/?share_auth=02e1a14215108771af811a61b36b70",
-            link_deezer: "https://www.deezer.com/ru/album/272689722",
+            link_deezer: "https://www.deezer.com/album/272689722",
             link_youtube_music: "https://music.youtube.com/playlist?list=OLAK5uy_nsyHJMT95_yRNFevNYfkRarnq_E42LnS8"
         }
     };
