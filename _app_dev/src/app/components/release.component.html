@@ -1,6 +1,6 @@
 <div>
 
-    <div class="release-page-background" [style.background-image]="'url(./../../img/covers/' + releaseConfig.cover + ')'">
+    <div class="release-page-background" [style.background-image]="'url(./../../assets/covers/' + releaseConfig.cover + ')'">
     </div>
 
     <div class="container-fluid custom-padding-container">
@@ -9,7 +9,7 @@
             <div>
                 <div class="release-header-text"><span>{{releaseConfig.type}}, {{releaseConfig.year}}</span></div>
             </div>
-            <img src="./../../img/covers/{{releaseConfig.cover}}" class="img-fluid" alt="...">
+            <img src="./../../assets/covers/{{releaseConfig.cover}}" class="img-fluid" alt="...">
             <div class="list-group">
                 <a href="{{releaseConfig.link_apple_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../img/services/apple-music.svg)'">Apple Music</a>
                 <a href="{{releaseConfig.link_spotify}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../img/services/spotify.svg)'">Spotify</a>
