@@ -1,29 +1,23 @@
 <div>
 
-    <div class="release-page-background" [style.background-image]="'url(./../../assets/covers/' + releaseConfig.cover + ')'">
+    <div class="list-page-background" [style.background-image]="'url(./../../assets/covers/' + releaseConfig.cover + ')'">
     </div>
 
     <div class="container-fluid custom-padding-container">
 
         <div class="contentwrapper">
             <div>
-                <div class="release-header-text"><span>{{releaseConfig.type}}, {{releaseConfig.year}}</span></div>
+                <div class="list-header-text"><span>{{releaseConfig.type}}, {{releaseConfig.year}}</span></div>
             </div>
             <img src="./../../assets/covers/{{releaseConfig.cover}}" class="img-fluid" alt="...">
             <div class="list-group">
                 <a href="{{releaseConfig.link_apple_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/apple-music.svg)'">Apple Music</a>
                 <a href="{{releaseConfig.link_spotify}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/spotify.svg)'">Spotify</a>
                 <a href="{{releaseConfig.link_yandex_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/yandex-music.svg)'">Yandex Music</a>
-                <!--<a href="{{releaseConfig.link_vk}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/vk.svg)'">VK</a>-->
                 <a href="{{releaseConfig.link_vk_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/vk-music.svg)'">VK Music</a>
                 <a href="{{releaseConfig.link_deezer}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/deezer.svg)'">Deezer</a>
                 <a href="{{releaseConfig.link_youtube_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/youtube-music.svg)'">YouTube Music</a>
                 <a href="{{releaseConfig.link_soundcloud}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/soundcloud.svg)'">SoundCloud</a>
-            </div>
-            <div class="release-add-btns">
-                <a class="btn btn-outline-dark btn-sm" href="{{commonConfig.pageVK}}" role="button" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
-                &nbsp;
-                <button class="btn btn-outline-dark btn-sm" type="button" (click)="shareCurrentHref()"><i class="fa fa-share-alt fa-2x"></i></button>
             </div>
         </div>
 

@@ -8,7 +8,7 @@ import { CommonConfigService } from './../services/common-config.service';
 @Component({
     selector: 'release-app',
     templateUrl: './release.component.html',
-    styleUrls: ['./../../css/release-page.css']
+    styleUrls: ['./../../css/list-page.css']
 })
 
 export class ReleaseComponent implements OnInit, OnDestroy {

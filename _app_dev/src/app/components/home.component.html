@@ -1,23 +1,26 @@
 <div>
 
-    <div class="release-page-background" [style.background-image]="'url(./../../assets/texture.jpg)'">
+    <div class="list-page-background" [style.background-image]="'url(./../../assets/texture.jpg)'">
     </div>
 
     <div class="container-fluid custom-padding-container">
 
         <div class="contentwrapper">
             <div>
-                <div class="release-header-text"><span>Releases</span></div>
+                <div class="list-header-text">
+                    <span>{{commonConfig.artistName}} [all pages]</span>
+                </div>
             </div>
             <div class="list-group">
-                <div *ngFor="let r of releasesList">
-                    <a href="{{r.href}}" class="list-group-item list-group-item-action">{{r.item.name}} ({{r.item.type}}, {{r.item.year}})</a>
-                </div>
-                <div class="release-add-btns">
-                    <a class="btn btn-outline-dark btn-sm" href="{{commonConfig.pageVK}}" role="button" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
-                    &nbsp;
-                    <button class="btn btn-outline-dark btn-sm" type="button" (click)="shareCurrentHref()"><i class="fa fa-share-alt fa-2x"></i></button>
-                </div>
+                <a href="{{commonConfig.pageVK}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/vk.svg)'">VK Official Community</a>
+
+                <a href="{{commonConfig.serviceAppleMusic}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/apple-music.svg)'">Apple Music</a>
+                <a href="{{commonConfig.serviceSpotify}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/spotify.svg)'">Spotify</a>
+                <a href="{{commonConfig.serviceYandexMusic}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/yandex-music.svg)'">Yandex Music</a>
+                <a href="{{commonConfig.serviceVKMusic}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/vk-music.svg)'">VK Music</a>
+                <a href="{{commonConfig.serviceDeezer}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/deezer.svg)'">Deezer</a>
+                <a href="{{commonConfig.serviceYoutubeMusic}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/youtube-music.svg)'">YouTube Music</a>
+                <a href="{{commonConfig.serviceSoundcloud}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/soundcloud.svg)'">SoundCloud</a>
             </div>
         </div>
 

@@ -1,4 +1,4 @@
-.release-page-background {
+.list-page-background {
     background-color: #252525;
     position: fixed;
     left: 0;
@@ -39,7 +39,7 @@
     padding: 20px 35px 0px 35px;
 }
 
-.release-header-text {
+.list-header-text {
     font-size: 25px;
     padding: 7px 7px 7px 15px;
     border-bottom: 1px solid dimgray;
@@ -72,9 +72,9 @@
 
 /***********************************************************/
 
-.release-add-btns {
+/*.release-add-btns {
     display: block;
     background-color: #ccc;
     padding: 7px 10px 7px 10px;
     text-align: center;
-}
+}*/
