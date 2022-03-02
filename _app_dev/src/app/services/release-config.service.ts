@@ -15,20 +15,20 @@ export class ReleaseConfigService {
         //    link_youtube_music: "#",
         //    link_soundcloud: "#"
         //},
-        //_alien: {
-        //    name: "Alien",
-        //    type: "Single",
-        //    year: "2022",
-        //    cover: "alien.jpg",
-        //    lyrics: "alien.txt",
-        //    link_apple_music: "#",
-        //    link_spotify: "#",
-        //    link_yandex_music: "#",
-        //    link_vk_music: "#",
-        //    link_deezer: "#",
-        //    link_youtube_music: "#",
-        //    link_soundcloud: "#"
-        //},
+        _alien: {
+            name: "Alien",
+            type: "Single",
+            year: "2022",
+            cover: "alien.jpg",
+            lyrics: "alien.txt",
+            link_apple_music: "https://music.apple.com/album/1601483293",
+            link_spotify: "https://open.spotify.com/album/2dLLDXBdvdTubHfbSCVvF3",
+            link_yandex_music: "https://music.yandex.ru/album/20159241",
+            link_vk_music: "https://share.boom.ru/album/18573715/?share_auth=0210d2842007871546811a621f8670",
+            link_deezer: "https://www.deezer.com/album/282335382",
+            link_youtube_music: "https://music.youtube.com/playlist?list=OLAK5uy_ko2Wl9hpbnxp6gEM-EOc0ifrVkgrqbXHs",
+            link_soundcloud: "https://soundcloud.com/terrifydrive/alien"
+        },
         _damned_street: {
             name: "Damned Street",
             type: "Single",
