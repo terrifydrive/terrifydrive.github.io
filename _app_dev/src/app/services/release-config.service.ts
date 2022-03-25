@@ -7,13 +7,13 @@ export class ReleaseConfigService {
         //    year: "202x",
         //    cover: "xxx_xxx.jpg",
         //    lyrics: "xxx_xxx.txt",
-        //    link_apple_music: "",
-        //    link_spotify: "",
-        //    link_yandex_music: "",
-        //    link_vk_music: "",
-        //    link_deezer: "",
-        //    link_youtube_music: "",
-        //    link_soundcloud: ""
+        //    link_apple_music: "#",
+        //    link_spotify: "#",
+        //    link_yandex_music: "#",
+        //    link_vk_music: "#",
+        //    link_deezer: "#",
+        //    link_youtube_music: "#",
+        //    link_soundcloud: "#"
         //},
         _scary_sheeps: {
             name: "Scary Sheeps",

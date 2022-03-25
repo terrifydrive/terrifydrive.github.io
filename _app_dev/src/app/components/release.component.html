@@ -11,13 +11,13 @@
             </div>
             <img src="./../../assets/covers/{{releaseConfig.cover}}" class="img-fluid" alt="...">
             <div class="list-group">
-                <a href="{{releaseConfig.link_apple_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/apple-music.svg)'">Apple Music</a>
-                <a href="{{releaseConfig.link_spotify}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/spotify.svg)'">Spotify</a>
-                <a href="{{releaseConfig.link_yandex_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/yandex-music.svg)'">Yandex Music</a>
-                <a href="{{releaseConfig.link_vk_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/vk-music.svg)'">VK Music</a>
-                <a href="{{releaseConfig.link_deezer}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/deezer.svg)'">Deezer</a>
-                <a href="{{releaseConfig.link_youtube_music}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/youtube-music.svg)'">YouTube Music</a>
-                <a href="{{releaseConfig.link_soundcloud}}" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/soundcloud.svg)'">SoundCloud</a>
+                <a href="{{releaseConfig.link_apple_music}}" *ngIf="releaseConfig.link_apple_music != '#'" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/apple-music.svg)'">Apple Music</a>
+                <a href="{{releaseConfig.link_spotify}}" *ngIf="releaseConfig.link_spotify != '#'" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/spotify.svg)'">Spotify</a>
+                <a href="{{releaseConfig.link_yandex_music}}" *ngIf="releaseConfig.link_yandex_music != '#'" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/yandex-music.svg)'">Yandex Music</a>
+                <a href="{{releaseConfig.link_vk_music}}" *ngIf="releaseConfig.link_vk_music != '#'" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/vk-music.svg)'">VK Music</a>
+                <a href="{{releaseConfig.link_deezer}}" *ngIf="releaseConfig.link_deezer != '#'" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/deezer.svg)'">Deezer</a>
+                <a href="{{releaseConfig.link_youtube_music}}" *ngIf="releaseConfig.link_youtube_music != '#'" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/youtube-music.svg)'">YouTube Music</a>
+                <a href="{{releaseConfig.link_soundcloud}}" *ngIf="releaseConfig.link_soundcloud != '#'" target="_blank" class="list-group-item list-group-item-action link-service-icon" [style.background-image]="'url(./../../assets/services/soundcloud.svg)'">SoundCloud</a>
             </div>
         </div>
 
