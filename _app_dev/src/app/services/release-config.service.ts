@@ -1,20 +1,34 @@
 export class ReleaseConfigService {
 
     private releasesConfigs: any = {
-        //_scary_sheeps: {
-        //    name: "Scary Sheeps",
+        //_xxx_xxx: {
+        //    name: "Xxx",
         //    type: "Single",
-        //    year: "2022",
-        //    cover: "scary-sheeps.jpg",
-        //    lyrics: "scary-sheeps.txt",
-        //    link_apple_music: "#",
-        //    link_spotify: "#",
-        //    link_yandex_music: "#",
-        //    link_vk_music: "#",
-        //    link_deezer: "#",
-        //    link_youtube_music: "#",
-        //    link_soundcloud: "#"
+        //    year: "202x",
+        //    cover: "xxx_xxx.jpg",
+        //    lyrics: "xxx_xxx.txt",
+        //    link_apple_music: "",
+        //    link_spotify: "",
+        //    link_yandex_music: "",
+        //    link_vk_music: "",
+        //    link_deezer: "",
+        //    link_youtube_music: "",
+        //    link_soundcloud: ""
         //},
+        _scary_sheeps: {
+            name: "Scary Sheeps",
+            type: "Single",
+            year: "2022",
+            cover: "scary-sheeps.jpg",
+            lyrics: "scary-sheeps.txt",
+            link_apple_music: "https://music.apple.com/album/1601484341",
+            link_spotify: "https://open.spotify.com/album/0UNcqb9atZZMdP7kUxoyuF",
+            link_yandex_music: "#",
+            link_vk_music: "https://share.boom.ru/album/18573777/?share_auth=028dc6212ebbf4ffcb811a623d92a0",
+            link_deezer: "https://www.deezer.com/album/282335402",
+            link_youtube_music: "https://music.youtube.com/playlist?list=OLAK5uy_mz_yYq9OqKgySzZZ63t0W2s02I5MOsqUo",
+            link_soundcloud: "https://soundcloud.com/terrifydrive/scary-sheeps"
+        },
         _alien: {
             name: "Alien",
             type: "Single",
