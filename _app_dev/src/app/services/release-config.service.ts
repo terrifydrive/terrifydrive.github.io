@@ -23,7 +23,7 @@ export class ReleaseConfigService {
             lyrics: "scary-sheeps.txt",
             link_apple_music: "https://music.apple.com/album/1601484341",
             link_spotify: "https://open.spotify.com/album/0UNcqb9atZZMdP7kUxoyuF",
-            link_yandex_music: "#",
+            link_yandex_music: "https://music.yandex.ru/album/20159247",
             link_vk_music: "https://share.boom.ru/album/18573777/?share_auth=028dc6212ebbf4ffcb811a623d92a0",
             link_deezer: "https://www.deezer.com/album/282335402",
             link_youtube_music: "https://music.youtube.com/playlist?list=OLAK5uy_mz_yYq9OqKgySzZZ63t0W2s02I5MOsqUo",
