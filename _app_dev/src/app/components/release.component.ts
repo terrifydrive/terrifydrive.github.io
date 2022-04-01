@@ -51,10 +51,10 @@ export class ReleaseComponent implements OnInit, OnDestroy {
         if (!this.releaseConfig) {
             window.location.replace(window.location.protocol + "//" + window.location.host);
         }
-        else {
-            this.http.get('/assets/lyrics/' + this.releaseConfig.lyrics, { responseType: 'text' })
-                .subscribe(data => console.log(data));
-        }
+        //else {
+        //    this.http.get('/assets/lyrics/' + this.releaseConfig.lyrics, { responseType: 'text' })
+        //        .subscribe(data => console.log(data));
+        //}
     }
 
     ngOnDestroy() {
