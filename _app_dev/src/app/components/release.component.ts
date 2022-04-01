@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Router } from "@angular/router";
 import { ReleaseConfigService } from './../services/release-config.service';
 import { CommonConfigService } from './../services/common-config.service';
+import { HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -18,7 +19,7 @@ export class ReleaseComponent implements OnInit, OnDestroy {
     commonConfig: any | undefined;
     yearNow: number | 0;
 
-    constructor(private activateRoute: ActivatedRoute, private router: Router, private releaseConfigService: ReleaseConfigService, private commonConfigService: CommonConfigService) {
+    constructor(private activateRoute: ActivatedRoute, private router: Router, private releaseConfigService: ReleaseConfigService, private commonConfigService: CommonConfigService, private http: HttpClient) {
         this.releaseId = activateRoute.snapshot.params["releaseId"];
         if (this.releaseId)
             this.releaseId = "_" + this.customReplaceAll(this.releaseId.toLowerCase(), "-", "_");
@@ -47,8 +48,13 @@ export class ReleaseComponent implements OnInit, OnDestroy {
     };
 
     ngOnInit() {
-        if (!this.releaseConfig)
+        if (!this.releaseConfig) {
             window.location.replace(window.location.protocol + "//" + window.location.host);
+        }
+        else {
+            this.http.get('/assets/lyrics/' + this.releaseConfig.lyrics, { responseType: 'text' })
+                .subscribe(data => console.log(data));
+        }
     }
 
     ngOnDestroy() {
