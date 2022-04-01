@@ -36,16 +36,16 @@ export class ReleaseComponent implements OnInit, OnDestroy {
         return str.replace(new RegExp(this.escapeRegExp(find), 'g'), replace);
     }
 
-    shareCurrentHref() {
-        let nav = window.navigator as any;
-        if (nav.share) {
-            nav.share({ url: window.location.href })
-                .then(() => console.log('Successful share'))
-                .catch(error => console.log('Error sharing', error));
-        } else {
-            console.log('share not supported');
-        }
-    };
+    //shareCurrentHref() {
+    //    let nav = window.navigator as any;
+    //    if (nav.share) {
+    //        nav.share({ url: window.location.href })
+    //            .then(() => console.log('Successful share'))
+    //            .catch(error => console.log('Error sharing', error));
+    //    } else {
+    //        console.log('share not supported');
+    //    }
+    //};
 
     ngOnInit() {
         if (!this.releaseConfig) {
